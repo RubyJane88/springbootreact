@@ -1,3 +1,5 @@
+set transaction read write;
+
 CREATE TABLE IF NOT EXISTS course (
                 course_id UUID NOT NULL PRIMARY KEY,
                 name VARCHAR(255) NOT NULL UNIQUE,
