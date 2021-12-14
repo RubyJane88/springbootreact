@@ -6,7 +6,7 @@ server:
 
 app:
   datasource:
-    jdbc-url: jdbc:postgresql://localhost:5432/amigoscodedemo
+    jdbc-url: ${DATABASE_URL}
     username: postgres
     password: pass
     pool-size: 30
